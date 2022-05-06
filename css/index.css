@@ -52,6 +52,16 @@ body{
     min-width: fit-content;
 }
 
+/* page loader */
+#loader{
+    background: #ecf0f1 url('/images/load.gif') no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
 /* header */
 #header{
     display: flex;
